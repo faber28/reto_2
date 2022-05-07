@@ -11,8 +11,8 @@ class AppRoutes {
 
   void createRoutes() {
     _routes = {
-      '/': (context) => CarDetails(),
-      "/cardetails": (context) => Home(),
+      '/': (context) => Home(),
+      "/cardetails": (context) => CarDetails(),
     };
   }
 

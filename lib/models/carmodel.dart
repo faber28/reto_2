@@ -10,9 +10,10 @@ class CarModel extends BaseModel {
   String description = "";
   double qualification = 0;
   String image = "";
+  bool isSelected = false;
 
   CarModel(this.id, this.brand, this.line, this.year, this.sellingPrice,
-      this.description, this.qualification, this.image) {
+      this.description, this.qualification, this.image, this.isSelected) {
     setState(CarState.init);
   }
 
@@ -24,6 +25,7 @@ class CarModel extends BaseModel {
   String get getDescription => description;
   double get getQualification => qualification;
   String get getImage => image;
+  bool get getIsSelected => isSelected;
 
   setYear(int value) {
     year = value;
@@ -73,5 +75,8 @@ class CarModel extends BaseModel {
     notifyListeners();
   }
 
+  setIsSelected(bool value) {
+    isSelected = value;
+    setState(CarState.init);
+  }
 }
-

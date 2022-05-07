@@ -14,15 +14,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-        create: (context) => Catalog(),
-        child: MaterialApp(
-          title: 'Reto_2',
-          theme: ThemeData(
-            primarySwatch: Colors.blue,
-          ),
-          initialRoute: '/',
-          routes: AppRoutes().getRoutes,
+      create: (context) => Catalog(),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Reto_2',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
         ),
-      );
+        initialRoute: '/',
+        routes: AppRoutes().getRoutes
+      ),
+    );
   }
 }
