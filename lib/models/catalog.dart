@@ -13,7 +13,7 @@ class Catalog extends BaseModel {
         2015,
         20000,
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        4.5,
+        5,
         "../images/0.png",
         false));
     cars.add(CarModel(
@@ -23,20 +23,20 @@ class Catalog extends BaseModel {
         2016,
         30000,
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        4.6,
+        4,
         "../images/0.png",
         false));
-    cars.add(CarModel(3, "Tesla", "Model X", 2021, 80000, "Descripción", 4.5,
+    cars.add(CarModel(3, "Tesla", "Model X", 2021, 80000, "Descripción", 3,
         "../images/1.png", false));
-    cars.add(CarModel(4, "Tesla", "Model Y", 2022, 90000, "Descripción", 4.5,
+    cars.add(CarModel(4, "Tesla", "Model Y", 2022, 90000, "Descripción", 2,
         "../images/2.png", false));
-    cars.add(CarModel(5, "Toyota", "Corolla", 2015, 20000, "Descripción", 4.5,
+    cars.add(CarModel(5, "Toyota", "Corolla", 2015, 20000, "Descripción", 5,
         "../images/0.png", false));
-    cars.add(CarModel(6, "Toyota", "Auris", 2016, 30000, "Descripción", 4.5,
+    cars.add(CarModel(6, "Toyota", "Auris", 2016, 30000, "Descripción", 4,
         "../images/1.png", false));
-    cars.add(CarModel(7, "Tesla", "Model X", 2021, 80000, "Descripción", 4.5,
+    cars.add(CarModel(7, "Tesla", "Model X", 2021, 80000, "Descripción", 1,
         "../images/1.png", false));
-    cars.add(CarModel(8, "Tesla", "Model Y", 2022, 90000, "Descripción", 4.5,
+    cars.add(CarModel(8, "Tesla", "Model Y", 2022, 90000, "Descripción", 2,
         "../images/2.png", false));
   }
 
