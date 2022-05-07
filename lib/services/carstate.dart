@@ -1,0 +1,3 @@
+enum CarState {
+  init, calificated
+}
