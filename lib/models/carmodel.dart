@@ -1,7 +1,5 @@
-import 'package:provider/provider.dart';
 import 'package:reto_2/models/basemodel.dart';
 import 'package:reto_2/services/carstate.dart';
-import 'package:reto_2/models/catalog.dart';
 
 class CarModel extends BaseModel {
   int? id;
@@ -65,7 +63,7 @@ class CarModel extends BaseModel {
 
   setQualification(double value) {
     qualification = value;
-    setState(CarState.init);
+    setState(CarState.calificated);
     notifyListeners();
   }
 
